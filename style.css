@@ -110,12 +110,13 @@
     background: #0D91A8;
 }
 
-.projectalpha {
+.projectalpha{
     position: absolute;
     width: 965px;
     height: 192px;
-    left: 68px;
-    top: 2156px;
+    left: 74px;
+    top: 2108px;
+
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 300;
