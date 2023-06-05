@@ -30,7 +30,7 @@
 
 .uxuidesigner {
     position: absolute;
-    width: 280px;
+    max-width: 100%;
     height: 20px;
     left: 74px;
     top: -17px;
@@ -46,7 +46,7 @@
 
 .pablocortés {
     position: absolute;
-    width: 335px;
+    min-width: 100%;
     height: 72px;
     right: -891px;
     top: 752px;
@@ -112,10 +112,10 @@
 
 .projectalpha{
     position: absolute;
-    width: 965px;
+    max-width: 100%;
     height: 192px;
     left: 74px;
-    top: 2108px;
+    top: 2138px;
 
     font-family: 'Poppins';
     font-style: normal;
@@ -130,3 +130,32 @@
     color: #373737;
 } 
 
+    .projectalpha-text {
+        position: absolute;
+        width: 833px;
+        height: 252px;
+        left: 15px;
+        top: 318px;;
+    
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 36px;
+        color: #373737;
+        text-transform:lowercase;
+        text-align: left;
+    
+    }
+    .Ver-más {
+        position: absolute;
+        color: #373737;
+        font-weight: regular;
+        text-decoration: none;
+        text-transform: lowercase;
+        font-size: 36px;
+        left: 15px;
+        top: 542px; 
+    }
+    
+    
