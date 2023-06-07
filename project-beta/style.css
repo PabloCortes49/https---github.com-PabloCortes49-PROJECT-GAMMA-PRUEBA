@@ -31,7 +31,8 @@ body {
     position: absolute;
     width: 100%;
     top: 1080px;
-    background-color: #FFFFFF;
+    left: 0px;
+    background-color: #faf6f6;
 }
 
 .projectbeta-text-details {
@@ -53,5 +54,26 @@ body {
     position: absolute;
     width: 60%;
     left: 368px;
-    top: 1566px;}
+    top: 1566px;
+}
+
+.footer {
+    width: 1920px;
+    height: 600px;
+    background-color:#0A0909;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: auto;
+    top: 2618px;
+    left: 0px;
+    position: absolute;
+  }
+  
+  .footer-text {
+    font-family: Poppins;
+    color: white;
+    font-size: 24px;
+  }
+  
 

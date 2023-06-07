@@ -11,16 +11,16 @@ body{
 
 }
 
-.Bg-blue{
+.Bg-green{
     position: absolute;
     width: 1920px;
     height: 1080px;
     left: 0px;
     top: 0px;
-    background: #0D91A8;
+    background: #A1C181;
 }
 
-.projectalpha {
+.projectgamma {
     /* text-align: center; */
     position: absolute;
     max-width: 100%;
@@ -39,7 +39,7 @@ body{
     background-color: #faf6f6;
 }
 
-.projectalpha-text-details {
+.projectgamma-text-details {
     position: absolute;
     width: 833px;
     height: 252px;
@@ -52,7 +52,7 @@ body{
     text-align: left;
 }
 
-.project-alpha-details {
+.project-gamma-details {
     position: absolute;
     width: 1657px;
     height: 1710px;
@@ -68,8 +68,8 @@ body{
     justify-content: center;
     align-items: center;
     padding-top: auto;
-    left:0px;
-    top: 3416px;
+    top: 3530px;
+    left: 0px;
     position: absolute;
   }
   

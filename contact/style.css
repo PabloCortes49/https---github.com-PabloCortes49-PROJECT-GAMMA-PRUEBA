@@ -11,53 +11,36 @@ body{
 
 }
 
-.Bg-blue{
+.Bg-lightblue{
     position: absolute;
     width: 1920px;
     height: 1080px;
     left: 0px;
     top: 0px;
-    background: #0D91A8;
+    background: #8CCDD0;
 }
 
-.projectalpha {
+.contactme {
     /* text-align: center; */
     position: absolute;
     max-width: 100%;
     height: 192px;
-    left: 457px;
+    left: 545px;
     top: 317px;
     color: #373737;
 }
 
-.bg-white {
-    position: absolute;
-    width: 100%;
-    height: calc(100% + 2200px);
-    top:1080px;
-    left: 0px;
-    background-color: #faf6f6;
-}
-
-.projectalpha-text-details {
+.contactme-text {
     position: absolute;
     width: 833px;
     height: 252px;
     left: 549px;
-    top: 1187px;
+    top: 652px;
     font-size: 24px;
     line-height: 36px;
     color: #373737;
     text-transform: lowercase;
     text-align: left;
-}
-
-.project-alpha-details {
-    position: absolute;
-    width: 1657px;
-    height: 1710px;
-    left: 127px;
-    top: 1712px;
 }
 
 .footer {
@@ -69,7 +52,7 @@ body{
     align-items: center;
     padding-top: auto;
     left:0px;
-    top: 3416px;
+    top: 1080px;
     position: absolute;
   }
   
