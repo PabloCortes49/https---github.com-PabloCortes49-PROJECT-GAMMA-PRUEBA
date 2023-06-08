@@ -1,0 +1,44 @@
+.header {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .menu {
+    display: flex;
+    transition: all 0.2s;
+  
+    a {
+      padding: 20px;
+    }
+  
+    &__close {
+      display: none;
+    }
+  
+    @media (max-width: 600px) {
+      position: fixed;
+      flex-direction: column;
+      background: black;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      transform: translateX(100vh);
+  
+      &--show {
+        transform: translateX(0);
+      }
+  
+      &__close {
+        display: inline-block;
+      }
+    }
+  }
+  
+  .show-menu {
+    display: none;
+  
+    @media (max-width: 600px) {
+      display: inline-block;
+    }
+  }
